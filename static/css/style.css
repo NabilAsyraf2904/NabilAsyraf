@@ -393,8 +393,19 @@ mark,
     content: "\2014\00A0"; }
 
 .img-fluid {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
   max-width: 100%;
   height: auto; }
+
+  .img-fit {
+    height: 370px; /* Set your desired height */
+    object-fit: cover;
+    width: 100%;
+}
+
+.no-shadow {
+  box-shadow: none;
+}
 
 .img-thumbnail {
   padding: 0.25rem;
@@ -8765,6 +8776,7 @@ h1, h2, h3, h4, h5,
   z-index: 0;
   position: relative; }
   .ftco-about .img-about .img {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     display: block;
     width: 100%;
     position: relative;
