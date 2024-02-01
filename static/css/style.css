@@ -398,9 +398,10 @@ mark,
   height: auto; }
 
   .img-fit {
-    height: 370px; /* Set your desired height */
+    height: 550px; /* Set your desired height */
     object-fit: cover;
     width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 .no-shadow {
@@ -506,8 +507,7 @@ pre {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px; }
+  margin-left: -25px; }
 
 .no-gutters {
   margin-right: 0;
@@ -6511,6 +6511,7 @@ button.bg-dark:focus {
 .shadow-none {
   -webkit-box-shadow: none !important;
   box-shadow: none !important; }
+  
 
 .w-25 {
   width: 25% !important; }
