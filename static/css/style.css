@@ -401,7 +401,6 @@ mark,
     height: 550px; /* Set your desired height */
     object-fit: cover;
     width: 100%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 .no-shadow {
