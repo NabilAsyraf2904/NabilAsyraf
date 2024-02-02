@@ -248,62 +248,113 @@
 	</div>
     </section>
 
-    
-    <section class="ftco-section" id="project-section">
-      <div class="container ">
+	<section class="container pt-5 pb-2 mt-3 mt-sm-4 mt-xl-5" id="project-section">
         <div class="row justify-content-center pb-5">
-          <div class="col-md-12 heading-section text-center ftco-animate">
-            <h2 class="mb-4">Projects</h2>
-          </div>
-        </div>
-        <div id="project" class="carousel slide carousel-fade">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="resume-wrap ftco-animate">
-    					<span class="date">September 2023 - October 2023</span>
-    					<h2>Black Screen Cinema</h2>
-    					<span class="position">Movie Ticketing Booking System</span>
-    					<a href="https://github.com/NabilAsyraf2904/BSC-Workspace.git" target="_blank"
-    					class="btn btn-link text-black btn-md fs-md rounded d-none d-lg-inline-flex ms-1 rounded-pill">
-							<i class='bx bxl-github'></i>
-						</a>
-    					<p class="mt-4" style="text-align: justify;">The Black Screen Cinema (BSC) is a web-based application designed to streamline the process of booking movie tickets.</p>
-							<ul>
-								<li>Front End : JavaServer Pages (JSP), Bootstrap framework, Boxicons, Font Awesome.</li>
-								<li>Database : MySQL Workbench, MySQL Database.</li>
-								<li>Back End : Java Servlet, Stripe Payment Gateway.</li>
-							</ul>
-    				</div>
+			<div class="col-md-12 heading-section text-center ftco-animate">
+			  <h2 class="mb-4">Projects</h2>
+			</div>
+		  </div>
+
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs flex-nowrap justify-content-lg-center overflow-auto pb-2 mb-3 mb-lg-4" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link text-nowrap active" id="project-management-tab" data-bs-toggle="tab" data-bs-target="#project-management" type="button" role="tab" aria-controls="project-management" aria-selected="true">
+              <i class="bx bx-star fs-lg opacity-60 me-2"></i>
+              Movie Ticketing System
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link text-nowrap" id="remote-work-tab" data-bs-toggle="tab" data-bs-target="#remote-work" type="button" role="tab" aria-controls="remote-work" aria-selected="false">
+              <i class="bx bx-briefcase-alt-2 fs-lg opacity-60 me-2"></i>
+              Personal Portfolio
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link text-nowrap" id="product-release-tab" data-bs-toggle="tab" data-bs-target="#product-release" type="button" role="tab" aria-controls="product-release" aria-selected="false">
+              <i class="bx bx-rocket fs-lg opacity-60 me-2"></i>
+              Coming Soon...
+            </button>
+          </li>
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content bg-secondary rounded-3 py-4" style="box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);">
+
+          <!-- Project Management -->
+          <div class="tab-pane fade show active" id="project-management" role="tabpanel" aria-labelledby="project-management-tab">
+            <div class="row align-items-center pt-3 pt-sm-4 pt-md-0 px-3 px-sm-4 px-lg-0">
+              <div class="col-lg-4 col-md-5 offset-lg-1 text-center text-md-start">
+                <h3 class="mb-lg-4">Movie ticket system</h3>
+                <p style="text-align: justify;">The Black Screen Cinema (BSC) is a web app for streamlined movie ticket booking. It uses JavaServer Pages, Bootstrap, Boxicons, and Font Awesome for the front end. MySQL manages the database, and Java Servlets, along with the Stripe Payment Gateway, handle the back end for efficient processing and secure online payments.</p>
+				<div class="d-flex align-items-center mt-n3 ms-n4 pb-lg-3 pb-md-2">
+					<div class="mt-3 ms-4 pe-md-2">
+					  <img src="static/images/html.png" width="63" alt="html" class=" d-block me-sm-1">
+					</div>
+					<div class="mt-3 ms-4 pe-md-2">
+						<img src="static/images/css.png" width="40" alt="css" class=" d-block me-sm-1">
+					  </div>
+					<div class="mt-3 ms-4 pe-md-2">
+					  <img src="static/images/java.png" width="60" alt="Java" class=" d-block me-sm-1">
+					</div>
+					<div class="mt-3 ms-4 pe-md-2">
+						<img src="static/images/mysql.png" width="100" alt="MySQL" class=" d-block me-sm-1">
+					  </div>
+				  </div>
+				  <a href="https://github.com/NabilAsyraf2904/BSC-Workspace.git" class="btn btn-lg btn-outline-warning w-sm-auto w-50 mt-4">Learn more</a>
+			</div>
+              <div class="col-lg-6 col-md-7 mt-md-4">
+                <img src="static/images/BSC.png" class="d-block my-lg-2 mx-auto me-md-0 img-fluid" width="595" alt="Image">
+              </div>
             </div>
-            <div class="carousel-item">
-              <div class="resume-wrap ftco-animate">
-    					<span class="date">October 2023 - Now</span>
-    					<h2>Nabil Asyraf</h2>  
-    					<span class="position">My Personal Portfolio Website</span> 
-    					<a href="https://github.com/NabilAsyraf2904/Nabilportfolio.git" target="_blank"
-    					class="btn btn-link  btn-sm fs-sm rounded d-none d-lg-inline-flex ms-1 rounded-pill">
-							<i class='bx bxl-github'></i>
-						</a>
-    					<p class="mt-4" style="text-align: justify;">My personal portfolio website is a web-based application designed to give an overview of my career as java developer.</p>
-							<ul>
-								<li>Front End : JavaServer Pages (JSP), Bootstrap framework, Boxicons, Font Awesome.</li>
-								<li>Database : MySQL Workbench, MySQL Database.</li>
-								<li>Back End : Spring boot.</li>
-							</ul>
-    				</div>
+          </div>
+
+          <!-- Remote Work -->
+          <div class="tab-pane fade" id="remote-work" role="tabpanel" aria-labelledby="remote-work-tab">
+            <div class="row align-items-center pt-3 pb-2 pb-sm-3 pt-sm-4 pt-md-0 px-3 px-sm-4 px-lg-0">
+              <div class="col-lg-4 col-md-5 offset-lg-1 text-center text-md-start">
+                <h3 class="mb-lg-4">Personal portfolio</h3>
+                <p style="text-align: justify;">My personal portfolio website, designed for showcasing my Java development career, utilizes JavaServer Pages (JSP), Bootstrap, Boxicons, and Font Awesome for the front end. MySQL Workbench and MySQL Database handle data management, while the back end is powered by Spring Boot for enhanced functionality and performance.</p>
+				<div class="d-flex align-items-center mt-n3 ms-n4 pb-lg-3 pb-md-2">
+					<div class="mt-3 ms-4 pe-md-2">
+					  <img src="static/images/html.png" width="63" alt="html" class=" d-block me-sm-1">
+					</div>
+					<div class="mt-3 ms-4 pe-md-2">
+						<img src="static/images/css.png" width="40" alt="css" class=" d-block me-sm-1">
+					  </div>
+					<div class="mt-3 ms-4 pe-md-2">
+					  <img src="static/images/java.png" width="60" alt="Java" class=" d-block me-sm-1">
+					</div>
+					<div class="mt-3 ms-4 pe-md-2">
+						<img src="static/images/springboot.png" width="170" alt="Springboot" class=" d-block me-sm-1">
+					  </div>
+				</div>
+				<div class="d-flex align-items-center mt-n3 ms-n4 pb-lg-4 pb-md-2">
+					<div class="mt-1 ms-4 pe-md-2">
+						<img src="static/images/mysql.png" width="100" alt="MySQL" class=" d-block me-sm-1">
+					</div>
+				</div>
+				  <a href="https://github.com/NabilAsyraf2904/Nabilportfolio.git" class="btn btn-lg btn-outline-warning w-sm-auto w-50 mt-4">Learn more</a>
+			</div>
+              <div class="col-lg-6 col-md-7 mt-md-4">
+                <img src="static/images/portfolio.png" class="d-block my-lg-2 mx-auto me-md-0 img-fluid" width="595"  alt="Image">
+              </div>
             </div>
           </div>
-          <a class="carousel-control-prev" type="button" data-bs-target="#project" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" type="button" data-bs-target="#project" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
+
+          <!-- Product Release -->
+          <div class="tab-pane fade" id="product-release" role="tabpanel" aria-labelledby="product-release-tab" >
+            <div class="row align-items-center pt-3 pt-sm-4 pt-md-0 px-3 pe-sm-4 pe-md-0 ps-sm-4 ps-lg-0">
+              <div class="col-lg-4 col-md-5 offset-lg-1 text-center text-md-start">
+                <h2 class="mb-lg-4">Coming soon...</h2>
+			</div>
+              <div class="col-lg-6 col-md-7 mt-n3 mt-md-1">
+                <img src="static/images/COMING SOON.png" class="d-block mb-lg-2 mx-auto me-md-0 img-fluid" width="525" alt="Image">
+              </div>
+            </div>
+          </div>
+
         </div>
-      </div>
-    </section>
+      </section>
 		
 		<section class="ftco-section" id="skills-section">
 			<div class="container">
