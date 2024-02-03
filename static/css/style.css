@@ -395,6 +395,7 @@ mark,
 .img-fluid {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
   max-width: 100%;
+  border-radius: 0.25rem 0.25rem 0.25rem 0.25rem;
   height: auto; }
 
   .img-fit {
@@ -3408,10 +3409,7 @@ input[type="button"].btn-block {
   }
   .nav-tabs .nav-link {
     border: 1px solid transparent;
-    border-top-left-radius: 0.25rem;
-    border-top-right-radius: 0.25rem;
-    border-bottom-left-radius: 0.25rem;
-    border-bottom-right-radius: 0.25rem; }
+    border-radius: 0.25rem 0.25rem 0.25rem 0.25rem; }
     .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
       border-color: #e9ecef #e9ecef #dee2e6; }
     .nav-tabs .nav-link.disabled {
@@ -8799,6 +8797,7 @@ h1, h2, h3, h4, h5,
   .ftco-about .img-about .img {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     display: block;
+    border-radius: 0.25rem 0.25rem 0.25rem 0.25rem;
     width: 100%;
     position: relative;
     z-index: 1; }
